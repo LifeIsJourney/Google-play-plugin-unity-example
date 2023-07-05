@@ -1,9 +1,7 @@
-using HBG;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using WordConnect;
 
 public class CloudData : MonoBehaviour
 {
@@ -28,6 +26,7 @@ public class CloudData : MonoBehaviour
 
         int CloudLastCompletedLevelNumber = json["last_completed_level_number"].AsInt;
 
+        //campare level so that you save data only if level is greater
         if(CloudLastCompletedLevelNumber > GameController.Instance.LastCompletedLevelNumber)
         {
             //cloud data is higher so save the data and restart the game.
