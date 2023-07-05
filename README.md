@@ -1,4 +1,4 @@
-# Google-play-plugin-unity-example
+# Google-play-plugin-unity-example-2023
 
 Main plugin link
 https://github.com/playgameservices/play-games-plugin-for-unity.git
